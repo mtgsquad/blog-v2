@@ -2126,10 +2126,10 @@ a.close.disabled {
   background-color: #33354b;
   border-radius: 2px;
   cursor: pointer;
-  height: 110px;
+  height: 120px;
   overflow: hidden;
   padding: 0.5em 1em;
-  width: 250px;
+  width: 310px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   margin: 15px auto;
@@ -2142,18 +2142,35 @@ a.close.disabled {
 .card-title {
   padding-left: 5px;
   font-size: 24px;
+  font-style: bold;
+  /*color: #ff4473;*/
+  color: #0ff;
 }
 .card-data {
   width: 100%;
   -webkit-box-pack: justify;
   justify-content: space-between;
+  
+}
+.data-div {
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+.data-div>i{
+  color: #ff4473;
+  transition: none;
+  transform: none;
 }
 .card-data,
 .card-sub {
   display: -webkit-box;
   display: flex;
+  flex-direction: column;
   -webkit-box-align: center;
-  align-items: center;
+  justify-content: center;
 }
 .card-data .data,
 .card-data i,
