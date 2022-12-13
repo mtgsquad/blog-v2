@@ -34,6 +34,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  display: flex;
+  flex-direction: row;
   color: #fff;
   text-align: left;
   background-color: #1c1e29;
@@ -2327,33 +2329,26 @@ hr {
 .nav > * {
   margin: 0;
 }
-
 .main {
   position: relative;
   height: 60%;
 }
-
 .agreement {
   position: relative;
   height: 60%;
 }
-
 .red {
   color: #ff4473;
 }
-
 .fs20 {
   font-size: 20px;
 }
-
 .fs24 {
   font-size: 24px;
 }
-
 .fs28 {
     font-size: 28px;
 }
-
 footer {
   text-align: center;
   display: flex;
@@ -2362,11 +2357,9 @@ footer {
   gap: 7px;
   flex-direction: column;
 }
-
 b {
   font-style: bold;
 }
-
 .note {
   padding: 10px;
   background-color: #282a3cb7;
@@ -2375,4 +2368,8 @@ b {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.adcontainer {
+  max-width: 250px;
+  max-height: 500px;
 }
