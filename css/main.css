@@ -2159,11 +2159,6 @@ a.close.disabled {
   gap: 5px;
   flex-direction: row;
 }
-.data-div>i{
-  color: #ff4473;
-  transition: none;
-  transform: none;
-}
 .card-data,
 .card-sub {
   display: -webkit-box;
@@ -2343,4 +2338,8 @@ footer {
   justify-content: center;
   gap: 7px;
   flex-direction: column;
+}
+
+b {
+  font-style: bold;
 }
