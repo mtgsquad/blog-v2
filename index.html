@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
-    <link rel="stylesheet" href="https://cdn.molai.dev/theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/2.css" />
     <script src="https://kit.fontawesome.com/9ce665d353.js" crossorigin="anonymous"></script>
     <script src="./js/main.js" defer></script>
@@ -31,12 +31,20 @@
       </nav>
       <div class="main">
         <h1>Welcome To The <b class="molai">molai</b><b class="function">.dev</b> Blog!</h1>
-        <h2>Posts</h2>
+        <hr>
+        <div class="note">
+          <span>📅📒 New Articles Everyday 🚀 -&nbsp;</span>
+          <a href="https://molai.dev" style="font-weight: bold;" target="_blank">@mtgsquad</a>
+          <a href="https://github.com/mtgsquad" target="_blank" style="margin-left: 14px">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <h2 class="fs28">Articles</h2>
         <div class="row">
           <div class="col">
             <div
               class="card card-info"
-              onclick="post1()"
+              onclick="article1()"
             >
               <p class="card-title" style="font-size: 20px; margin-bottom: 0px;">Languages To Learn In 2023</p>
               <div class="card-data">
@@ -56,7 +64,7 @@
           <div class="col">
             <div
               class="card card-info"
-              onclick="post2()"
+              onclick="article2()"
             >
               <p class="card-title" style="font-size: 20px; margin-bottom: 0px;">Tips For Python Beginners</p>
               <div class="card-data">
@@ -76,7 +84,7 @@
           <div class="col">
             <div
               class="card card-info"
-              onclick="post3()"
+              onclick="article3()"
             >
               <p class="card-title" style="font-size: 20px; margin-bottom: 0px;">Intro To Responsive Web Design</p>
               <div class="card-data">
@@ -106,6 +114,9 @@
         <br>
         
       </div>
+      <hr>
+      <br>
+      <br>
       <footer class="fs20">
         <div class="logo">
             <a class="fs24" href="/">
