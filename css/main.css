@@ -2129,7 +2129,7 @@ a.close.disabled {
   height: 120px;
   overflow: hidden;
   padding: 0.5em 1em;
-  width: 310px;
+  width: max-content;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   margin: 15px auto;
