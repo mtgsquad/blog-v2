@@ -2267,6 +2267,24 @@ hr {
 .nav-middle {
   cursor: pointer;
 }
+.nav-middle > span > a {
+  text-decoration: none;
+  outline: 0;
+}
+.nav-middle > span > a > i {
+  font-size: 24px;
+  margin: 0 0.25em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.nav-middle > span > a > i:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+.nav-middle > span > a > i:active {
+  -webkit-transform: translateY(1.5px);
+  transform: translateY(1.5px);
+}
 .nav-middle > span {
   font-size: 24px;
 }
