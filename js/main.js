@@ -10,6 +10,9 @@ const article3 = function() {
 const article4 = function() {
     location='/articles\/introduction-to-sveltekit\/'
 }
+const article5 = function() {
+    location='/articles\/introduction-to-cli\/'
+}
 const toGithub = function() {
     location='https://github.com/mtgsquad'
 }
