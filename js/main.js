@@ -13,6 +13,9 @@ const article4 = function() {
 const article5 = function() {
     location='/articles\/introduction-to-cli\/'
 }
+const article6 = function() {
+    location='/articles\/host-your-site-on-cf-pages\/'
+}
 const toGithub = function() {
     location='https://github.com/mtgsquad'
 }
